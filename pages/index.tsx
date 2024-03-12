@@ -187,9 +187,9 @@ export default function Home() {
                             {message.sourceDocs.map((doc, index) => (
                               <div key={`messageSourceDocs-${index}`}>
                                 <AccordionItem value={`item-${index}`}>
-                                  <AccordionTrigger>
+{/*                                   <AccordionTrigger>
                                     <h3>Source {index + 1}</h3>
-                                  </AccordionTrigger>
+                                  </AccordionTrigger> */}
                                   <AccordionContent>
                                     <ReactMarkdown linkTarget="_blank">
                                       {doc.pageContent}
@@ -262,7 +262,7 @@ export default function Home() {
         </div>
         <footer className="m-auto p-4">
           <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Mayo (Twitter: @mayowaoshin).
+            Powered by Nexuses
           </a>
         </footer>
       </Layout>
